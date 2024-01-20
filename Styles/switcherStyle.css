@@ -1,0 +1,71 @@
+:root {
+        /*---------WHITE THEME----------*/
+
+        --color-bg: #e4f4ff;
+        --color-white: #fcffff;
+        --color-dest: #dbeefb;
+        --color-popUp: #a8cbf2;
+        --color-logo: #fc4c38;
+    
+        /*---------DARK THEME-----------*/
+    
+        --color-bgDark: #000000;   
+        --color-dark: #0a2742;
+        --color-dest: #081726;
+        --color-popUpDark: #0a1f32;
+        --color-logoDark: #008b8b;
+    
+}
+* {
+    transition: all 1s;
+}
+.switcherContainer {
+    position: relative;
+    left: 340px;
+    background: #f2f7f7;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid #a1a1a1;
+    cursor: pointer;
+}
+.switcherContainer.dark {
+    background: #0d2d4b;
+}
+.switcherSlider {
+    position: absolute;
+    top: -5px;
+    left: -7px;
+    background: var(--color-dark);
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+}
+.switcherSlider .moon {
+    position: absolute;
+    left: 4px;
+    top: 3.5px;
+    font-size: 20px;
+    color: var(--color-white);
+    opacity: 0;
+}
+.switcherSlider.dark .moon {
+    color: var(--color-bgDark);
+    opacity: 1;
+}
+.switcherSlider .sun {
+    position: absolute;
+    left: 4px;
+    top: 3.5px;
+    font-size: 20px;
+    color: var(--color-white);
+    opacity: 1;
+}
+.switcherSlider.dark .sun {
+    color: var(--color-bgDark);
+    opacity: 0;
+}
+.switcherSlider.dark {
+    background: var(--color-white);
+    left: 27px;
+}
