@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/navStyle.css">
     <link rel="stylesheet" href="./Styles/switcherStyle.css">
+    <link rel="stylesheet" href="./Styles/menuSlider.css">
     <script src="./Scripts/switcherScript.js" defer></script>
+    <script src="./Scripts/menuSlider.js" defer></script>
     <script src="./Scripts/digitalTimerScripts.js"></script>
     <title>Dashboard</title>
 </head>
@@ -33,6 +35,25 @@
                 <p><span id="horas">00</span>.<span id="minutos">00</span> pm</p>
             </div>
     </nav>
+    <section class="menuSlider">
+        <picture class="logo">
+            <h1><span>i</span>nvester</h1>    
+        </picture>  
+        <div class="arrow" id="arrow">
+         <ion-icon name="chevron-back-outline" class="leftArrow"></ion-icon>
+         <ion-icon name="chevron-forward-outline" class="rightArrow"></ion-icon>
+        </div>
+        <div class="menuLinks">
+            <a href="#"><ion-icon name="grid-outline"></ion-icon>Dashboard</a>
+            <a href="#"><ion-icon name="sync-outline"></ion-icon>Exchange</a>
+            <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+            <a href="#"><ion-icon name="card-outline"></ion-icon>Transations</a>
+            <a href="#"><ion-icon name="analytics-outline"></ion-icon>Analytics</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Messages</a>
+            <a href="#"><ion-icon name="information-circle-outline"></ion-icon>Help</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+        </div>
+    </section>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

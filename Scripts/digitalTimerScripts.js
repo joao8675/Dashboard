@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         horas.textContent = hr;
         minutos.textContent = min;
-        segundos.textContent = s;
 
     }, 1000);
 
