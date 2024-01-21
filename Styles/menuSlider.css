@@ -4,8 +4,9 @@
     --color-bg: #e4f4ff;
     --color-white: #fcffff;
     --color-dest: #cce8fa;
-    --color-popUp: #a8cbf2;
+    --color-popUp: #ebf4ff;
     --color-logo: #fc4c38;
+    --color-text: #807e7e;
 
     /*---------DARK THEME-----------*/
 
@@ -42,7 +43,8 @@
     flex-direction: column;
     top: 0px;
     /*left: -300px;*/
-    background-color: var(--color-dest);
+    background-color: var(--color-popUp);
+    box-shadow: 0px 0px 8px 2px #0000001f;
 }
 .menuSlider.active {
     width: 100px;
@@ -52,43 +54,65 @@
     top: 66px;
     left: -20px;
 }
-.logo h1 {
+.logo .i {
+    text-transform: lowercase;
+    background: var(--color-logo);
+    padding: 0px 14px;
+    border-radius: 100px;
+    color: var(--color-white);
+    margin-left: 20px;
+}
+.i.active {
+    padding: 5px 19px;
+    margin-left: 15px;
+}
+.nvester.active {
+    opacity: 0;
+    margin-left: -100px;
+}
+.logo .nvester {
+    top: -4px;
+    left: 75px;
+    position: absolute;
+    background: transparent;
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
     color: var(--color-logo);
-    margin: 0px 40px 0px 30px;
-}
-.logo.dark h1 {
-    color: var(--color-logoDark);
-}
-.logo span {
-    text-transform: lowercase;
-    background: var(--color-logo);
-    padding: 0px 13px;
-    margin: 3px;
-    border-radius: 100px;
-    color: var(--color-white);
 }
 .arrow {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 219px;
-    top: 62px;
+    left: 224px;
+    top: 68px;
     background-color: var(--color-logo);
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 60px;
     cursor: pointer;
+}
+.arrow.active {
+    left: 83px;
 }
 .leftArrow {
     opacity: 1;
     padding: 0px 2px 0px 0px;
+    transition: all 1s;
+}
+.leftArrow.active {
+    opacity: 0;
+    margin-left: 200px;
 }
 .rightArrow {
     opacity: 0;
     padding: 0px 0px 0px 2px;
+    margin-right: 300px;
+    transition: all 0.5s;
+}
+.rightArrow.active {
+    opacity: 1;
+    margin-right: 0;
 }
 .arrow ion-icon {
     position: absolute;
@@ -110,9 +134,12 @@
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: #a1a1a1;
+    color: var(--color-text);
     transition: all 0.2s;
     width: 200px;
+}
+.menuLinks.active a {
+    width: 80px;
 }
 .menuLinks a:hover {
     color: #993399;
@@ -120,8 +147,49 @@
     width: 250px;
     border-right: 4px solid #993399;
 }
+.menuLinks.active a:hover {
+    color: #993399;
+    background: #f2f7f7;
+    width: 104px;
+    border-right: 4px solid #993399;
+}
 .menuLinks a ion-icon {
     position: relative;
     font-size:  30px;
     margin-right: 35px;
+}
+.menuLinks.active a {
+    padding-left:33px;
+}
+.leftLinks1.active {
+    margin-left: -120px;
+    opacity: 0;
+}
+.leftLinks2.active {
+    margin-left: -120px;
+    opacity: 0;
+}
+.leftLinks3.active {
+    margin-left: -120px;
+    opacity: 0;
+}
+.leftLinks4.active {
+    margin-left: -120px;
+    opacity: 0;
+}
+.leftLinks5.active {
+    margin-left: -120px;
+    opacity: 0;
+}
+.leftLinks6.active {
+    margin-left: -120px;
+    opacity: 0;
+}
+.leftLinks7.active {
+    margin-left: -120px;
+    opacity: 0;
+}
+.leftLinks8.active {
+    margin-left: -120px;
+    opacity: 0;
 }
