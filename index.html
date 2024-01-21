@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="./Styles/switcherStyle.css">
     <link rel="stylesheet" href="./Styles/menuSlider.css">
     <link rel="stylesheet" href="./Styles/dark.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js">
+    <link rel="stylesheet" href="./Styles/graphicStyle.css">
     <script src="./Scripts/switcherScript.js" defer></script>
     <script src="./Scripts/menuSlider.js" defer></script>
     <script src="./Scripts/digitalTimerScripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./Scripts/chartsGraphic.js" defer></script>
     <title>Dashboard</title>
 </head>
 <body>
@@ -55,6 +59,11 @@
             <a href="#"><ion-icon name="settings-outline"></ion-icon><span class="leftLinks8">Settings</span></a>
         </div>
     </section>
+    <header>
+        <div class="grafico" style="width: 900px; height: 500px;">
+            <canvas id="lineChart" class="graphic" width="400" height="200"></canvas>
+          </div>
+    </header>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
