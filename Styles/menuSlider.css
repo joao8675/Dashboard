@@ -144,7 +144,7 @@
 .menuLinks a:hover {
     color: #993399;
     background: #f2f7f7;
-    width: 250px;
+    width: 245px;
     border-right: 4px solid #993399;
 }
 .menuLinks.active a:hover {

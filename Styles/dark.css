@@ -1,0 +1,60 @@
+:root {
+    /*---------WHITE THEME----------*/
+
+    --color-bg: #e4f4ff;
+    --color-white: #fcffff;
+    --color-dest: #cce8fa;
+    --color-popUp: #ebf4ff;
+    --color-logo: #fc4c38;
+    --color-text: #807e7e;
+
+    /*---------DARK THEME-----------*/
+
+    --color-bgDark: #000000;   
+    --color-dark: #0a2742;
+    --color-darkShadow: #061b2e;
+    --color-destDark: #081726;
+    --color-popUpDark: #0a1f32;
+    --color-logoDark: #008b8b;
+    --color-bgHoverDark: #202020;
+
+    /*
+    -----------BOX SHADOW------------
+
+    box-shadow: inset 0px 0px 8px 0px var(--color-darkShadow);
+
+    */
+
+    /*
+    --------------FONTES--------------
+
+        font-family: 'Inconsolata', monospace;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'PT Serif', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Slab', serif;
+
+    */
+}
+.logo .i.dark {
+    background: var(--color-logoDark);
+    color: var(--color-popUpDark);
+}
+.logo .nvester.dark {
+    color: var(--color-logoDark);
+}
+.menuSlider.dark {
+    background: var(--color-popUpDark);
+}
+.arrow.dark {
+    background: var(--color-logoDark);
+}
+.arrow.dark ion-icon {
+    color: #000000;
+}
+.menuLinks.dark a:hover {
+    background: var(--color-bgHoverDark);
+}
+.menuLinks.active.dark a:hover {
+    background: var(--color-bgHoverDark);
+}

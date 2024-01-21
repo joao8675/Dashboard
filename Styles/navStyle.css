@@ -12,18 +12,20 @@
 
     --color-bg: #e4f4ff;
     --color-white: #fcffff;
-    --color-dest: #dbeefb;
-    --color-popUp: #a8cbf2;
+    --color-dest: #cce8fa;
+    --color-popUp: #ebf4ff;
     --color-logo: #fc4c38;
+    --color-text: #807e7e;
 
     /*---------DARK THEME-----------*/
 
     --color-bgDark: #000000;   
     --color-dark: #0a2742;
     --color-darkShadow: #061b2e;
-    --color-dest: #081726;
+    --color-destDark: #081726;
     --color-popUpDark: #0a1f32;
     --color-logoDark: #008b8b;
+    --color-bgHoverDark: #202020;
 
     /*
     -----------BOX SHADOW------------
@@ -98,7 +100,7 @@ body.dark {
     font-family: 'Roboto', sans-serif;
     user-select: none;
 }
-.linkHover {
+.linkHover1, .linkHover2, .linkHover3, .linkHover4 {
     display: flex;
     align-items: center;
     padding: 27px 20px 23.5px;
@@ -107,18 +109,48 @@ body.dark {
     color: #a1a1a1;
     font-weight: 500;
 }
-.linkHover:hover {
+.linkHover1:hover {
     background: #f2f7f7;
     padding: 27px 20px 23.5px;
     border-bottom: 5px solid #993399;
     color: #993399;
 }
-.linkHover ion-icon {
+.linkHover2:hover {
+    background: #f2f7f7;
+    padding: 27px 20px 23.5px;
+    border-bottom: 5px solid #993399;
+    color: #993399;
+}
+.linkHover3:hover {
+    background: #f2f7f7;
+    padding: 27px 20px 23.5px;
+    border-bottom: 5px solid #993399;
+    color: #993399;
+}
+.linkHover4:hover {
+    background: #f2f7f7;
+    padding: 27px 20px 23.5px;
+    border-bottom: 5px solid #993399;
+    color: #993399;
+}
+.linkHover1.dark:hover {
+    background: var(--color-bgHoverDark);
+}
+.linkHover2.dark:hover {
+    background: var(--color-bgHoverDark);
+}
+.linkHover3.dark:hover {
+    background: var(--color-bgHoverDark);
+}
+.linkHover4.dark:hover {
+    background: var(--color-bgHoverDark);
+}
+.linkHover1 ion-icon, .linkHover2 ion-icon, .linkHover3 ion-icon, .linkHover4 ion-icon {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 23px;
     margin: 0px 10px;
-    font-size: 25px;
 }
 .user {
     display: flex;
