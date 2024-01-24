@@ -39,9 +39,8 @@
 
 .graphic {
     position: absolute;
-    z-index: -99999;
     margin: 50px;
-    top: 90px;
+    top: 400px;
     left: 90px;
     background: var(--color-white);
     padding: 30px;

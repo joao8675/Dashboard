@@ -38,11 +38,11 @@
 .menuSlider {
     width: 240px;
     height: 100%;
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     top: 0px;
-    /*left: -300px;*/
+    z-index: 99999;
     background-color: var(--color-popUp);
     box-shadow: 0px 0px 8px 2px #0000001f;
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./Styles/dark.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js">
     <link rel="stylesheet" href="./Styles/graphicStyle.css">
+    <link rel="stylesheet" href="./Styles/cardsStyle.css">
     <script src="./Scripts/switcherScript.js" defer></script>
     <script src="./Scripts/menuSlider.js" defer></script>
     <script src="./Scripts/digitalTimerScripts.js"></script>
@@ -60,9 +61,81 @@
         </div>
     </section>
     <header>
-        <div class="grafico" style="width: 900px; height: 500px;">
-            <canvas id="lineChart" class="graphic" width="400" height="200"></canvas>
-          </div>
+        <section class="cards">
+            <div class="h1Container">
+                <h1>Overview</h1>
+                <input type="date">
+            </div>
+            <div class="cardsContainer">
+                <section class="btcRed allCards">
+                    <div class="btc">
+                        <ion-icon name="logo-bitcoin" class="bitcoin"></ion-icon>
+                        <p>btc</p>
+                        <ion-icon name="logo-paypal" class="paypal"></ion-icon>
+                    </div>
+                    <div class="cash">
+                        <h2>R$827,199</h2>
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="cardHolder">
+                            <p>Card Holder <br><span class="cardName cardInfos">joao net.</span></p>
+                        </div>
+                        <div class="expiry">
+                            <p>Expiry <br><span class="cardDate cardInfos">08/23</span></p>
+                        </div>
+                        <div class="cvv">
+                            <p>CVV <br><span class="cardCvv cardInfos">123</span></p>
+                        </div>
+                    </div>
+                </section>
+                <section class="ehtBlack allCards">
+                    <div class="btc">
+                        <ion-icon name="logo-alipay"></ion-icon>
+                        <p>eht</p>
+                        <ion-icon name="logo-closed-captioning"></ion-icon>
+                    </div>
+                    <div class="cash">
+                        <h2>R$95,623</h2>
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+                    </div>
+                    <div class="info">
+                        <div class="cardHolder">
+                            <p>Card Holder<span class="cardName">joao pereira</span></p>
+                        </div>
+                        <div class="expiry">
+                            <p>Expiry <span class="cardDate">08/23</span></p>
+                        </div>
+                        <div class="cvv">
+                            <p>CVV <span class="cardCvv">123</span></p>
+                        </div>
+                    </div>
+                </section>
+                <section class="btcBlue allCards">
+                    <div class="btc">
+                        <ion-icon name="logo-bitcoin"></ion-icon>
+                        <p></p>
+                        <ion-icon name="logo-paypal"></ion-icon>
+                    </div>
+                    <div class="cash">
+                        <h2>R$74,384</h2>
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+                    </div>
+                    <div class="info">
+                        <p>Card Holder <span class="cardName">joao pereira</span></p>
+                        <p>Expiry <span class="cardDate">08/23</span></p>
+                        <p>CVV <span class="cardCvv">123</span></p>
+                    </div>
+                </section>
+            </div>
+
+
+        </section>
+        <section>
+            <div class="grafico" style="width: 1100px; height: 500px;">
+                <canvas id="lineChart" class="graphic" width="400" height="200"></canvas>
+            </div>
+        </section>
     </header>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
