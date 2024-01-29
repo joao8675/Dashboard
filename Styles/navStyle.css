@@ -49,7 +49,7 @@ body {
     background: var(--color-bg);
 }
 body.dark {
-    background: var(--color-bgDark);
+    background: #041422;
 }
 .navBackground {
     background: var(--color-white);

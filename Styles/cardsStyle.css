@@ -36,6 +36,9 @@
 
     */
 }
+body {
+    width: 1300px;
+}
 .cards {
     display: flex;
     flex-direction: column;
@@ -95,12 +98,15 @@
 }
 .btcRed {
     background: linear-gradient(to bottom, #ff6b5a, #df2a16);
+    box-shadow: 0px 0px 12px 6px #df2a1657;
 }
 .ehtBlack {
     background: linear-gradient(to bottom, #04dddd, var(--color-logoDark));
+    box-shadow: 0px 0px 12px 6px #04dddd44;
 }
 .btcBlue {
     background: linear-gradient(to bottom, #5457ff, #06088b);
+    box-shadow: 0px 0px 12px 6px #06088b5d;
 }
 .btc {
     display: flex;
@@ -116,7 +122,6 @@
 }
 .bitcoin {
     font-size: 23px;
-
     border: 0.1px solid var(--color-white);
     padding: 3px;
     border-radius: 7px;
@@ -155,5 +160,65 @@
 }
 .expiry {
     margin-left: 86px;
+}
+.logMarc {
+    position: relative;
+    left: 165px;
+    font-size: 30px;
+}
+.cardInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-size: 15px;
+    gap: 20px;
+    font-weight: 200;
+    margin: 30px 0px 0px 0px;
+}
+.logoAlipay {
+    font-size: 25px;
+}
+.cardBelowInfos {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: relative;
+    top: 90px;
+    left: -58px;
+    gap: 43px;
+}
+.belowInfoSections {
+    width: 205px;
+}
+.insideBelowInfos {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.insideBelowInfos h2 {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--color-bgDark);
+}
+.insideBelowInfos.dark h2 {
+    color: var(--color-bg);
+}
+.insideBelowInfos h3 {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    color: var(--color-bgDark);
+}
+.insideBelowInfos.dark h3 {
+    color: var(--color-bg);
+}
+.insideBelowInfos p {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--color-text);
 }
 

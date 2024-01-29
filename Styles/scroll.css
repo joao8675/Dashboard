@@ -10,7 +10,7 @@
 
     /*---------DARK THEME-----------*/
 
-    --color-bgDark: #04121f;   
+    --color-bgDark: #000000;   
     --color-dark: #0a2742;
     --color-darkShadow: #061b2e;
     --color-destDark: #081726;
@@ -21,7 +21,7 @@
     /*
     -----------BOX SHADOW------------
 
-    box-shadow: inset 0px 0px 8px 4px var(--color-darkShadow);
+    box-shadow: inset 0px 0px 8px 0px var(--color-darkShadow);
 
     */
 
@@ -37,13 +37,10 @@
     */
 }
 
-.graphic {
-    position: absolute;
-    margin: 50px;
-    top: 550px;
-    left: 89px;
-    background: var(--color-white);
-    padding: 30px;
-    border-radius: 25px;
-    box-shadow: 0px 0px 8px 2px #00000027;
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: var(--color-text);
 }
