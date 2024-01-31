@@ -17,7 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.linkHover3').classList.toggle('dark');
         document.querySelector('.linkHover4').classList.toggle('dark');
         document.querySelector('.graphic').classList.toggle('dark');
-        document.querySelector('.insideBelowInfos').classList.toggle('dark');
+        document.querySelector('.h1Container').classList.toggle('dark');
+        document.querySelector('.inf1').classList.toggle('dark');
+        document.querySelector('.inf2').classList.toggle('dark');
+        document.querySelector('.inf3').classList.toggle('dark');
+        document.querySelector('.inf4').classList.toggle('dark');
         // Adicione mais classes ou elementos que deseja modificar
     });
 });

@@ -77,6 +77,12 @@ body {
     font-size: 17px;
     cursor: text;
 }
+.h1Container.dark {
+    color: var(--color-white);
+}
+.h1Container.dark input {
+    background-color: var(--color-dest);
+}
 .h1Container input:focus {
     outline: none;
     border-color: var(--color-text);
@@ -201,7 +207,16 @@ body {
     font-weight: 800;
     color: var(--color-bgDark);
 }
-.insideBelowInfos.dark h2 {
+.inf1.dark h2 {
+    color: var(--color-bg);
+}
+.inf2.dark h2 {
+    color: var(--color-bg);
+}
+.inf3.dark h2 {
+    color: var(--color-bg);
+}
+.inf4.dark h2 {
     color: var(--color-bg);
 }
 .insideBelowInfos h3 {
@@ -213,7 +228,16 @@ body {
     user-select: none;
     color: var(--color-bgDark);
 }
-.insideBelowInfos.dark h3 {
+.inf1.dark h3 {
+    color: var(--color-bg);
+}
+.inf2.dark h3 {
+    color: var(--color-bg);
+}
+.inf3.dark h3 {
+    color: var(--color-bg);
+}
+.inf4.dark h3 {
     color: var(--color-bg);
 }
 .insideBelowInfos p {
