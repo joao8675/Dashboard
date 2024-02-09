@@ -245,4 +245,76 @@ body {
     font-weight: 400;
     color: var(--color-text);
 }
-
+.fastPayment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 124px;
+    left: -97px;
+    gap: 10px;
+}
+.fastPaymentH2 {
+    width: 100px;
+    font-family: 'Kanit', sans-serif;
+    color: var(--color-text);
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+.fastPayment button {
+    border: none;
+    padding: 6.5px 16.5px;
+    background: var(--color-white);
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    top: -24px;
+}
+.fastPayment button:hover {
+    background: #e4e4e4;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fastPayment ul {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.fastPayment ul div {
+    background: var(--color-white);
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.list1, .list2 {
+    display: flex;
+    gap: 10px;
+}
+.list2 {
+    position: relative;
+    left: -53px;
+}
+.fastPayment ul li {
+    display: flex;
+    gap: 25px;
+    user-select: none;
+}
+.fastPayment ul div:hover {
+    background: #e4e4e4;
+}
+.fastPayment ul li span {
+    font-weight: 600;
+    color: #00aa2b;
+}

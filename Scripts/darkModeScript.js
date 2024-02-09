@@ -22,6 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.inf2').classList.toggle('dark');
         document.querySelector('.inf3').classList.toggle('dark');
         document.querySelector('.inf4').classList.toggle('dark');
+        document.querySelector('.fastPaymentH2').classList.toggle('dark');
+        document.querySelector('.fastPayment').classList.toggle('dark');
         // Adicione mais classes ou elementos que deseja modificar
     });
 });

@@ -60,5 +60,24 @@
 }
 .graphic.dark {
     background: var(--color-dark);
-    box-shadow: inset 0px 0px 8px 4px var(--color-darkShadow);
+}
+.fastPaymentH2.dark {
+    color: var(--color-white);
+}
+.fastPayment.dark button {
+    background: var(--color-dark);
+    color: var(--color-white);
+}
+.fastPayment.dark button:hover {
+    background: var(--color-darkShadow);
+}
+.fastPayment.dark ul div {
+    background: var(--color-dark);
+    color: var(--color-white);
+}
+.fastPayment.dark ul div:hover {
+    background: var(--color-darkShadow);
+}
+.fastPayment.dark ul li span {
+    color: #09ff00;
 }
