@@ -21,7 +21,8 @@
     /*
     -----------BOX SHADOW------------
 
-    box-shadow: inset 0px 0px 8px 0px var(--color-darkShadow);
+    box-shadow: inset 0px 0px 8px 0px var(--color-darkShadow); --INSET--
+    box-shadow: 0 0 8px 2px #0000002f; --OUTSET--
 
     */
 
@@ -39,14 +40,27 @@
 
 .userContent {
     position: relative;
-    top: -290px;
-    left: 1155px;
-    width: 355px;
-    height: 235px;
+    top: -282px;
+    left: 1475px;
+    width: 350px;
+    height: 405px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.userContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    background: var(--color-white);
+    border-radius: 10px;
+    box-shadow: 0 0 8px 2px #0000002f;
+    width: 346px;
+    height: 195px;
+    padding: 20px;
+    margin-bottom: 15px;
 }
 .ring {
     position: relative;
@@ -56,7 +70,7 @@
     justify-content: center;
     align-items: center;
     justify-content: center;
-    margin: 10px 0 25px 35px;
+    margin: 0 0 30px;
 }
 .ring i {
     position: absolute;
@@ -106,6 +120,7 @@
     font-size: 40px;
     border-radius: 90px;
     box-shadow: 0 0 4px 0 #0093ad;
+    transition: all 0.3s;
 }
 .ring:hover .userImg {
     box-shadow: 0 0 4px 0 #ff3300;
@@ -123,3 +138,57 @@
 .username h3 {
     font-weight: 400;
 }
+.ownCard {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-dest);
+    border-radius: 10px;
+    box-shadow: 0 0 8px 2px #0000002f;
+    width: 346px;
+    height: 195px;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text);
+    user-select: none;
+    transition: all 0.3s;
+}
+.ownCard i:nth-child(1) {
+    position: absolute;
+    background: var(--clr);
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+}
+.ownCard i:nth-child(2) {
+    position: absolute;
+    background: var(--clr);
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    left: 47px;
+}
+.ownCard div {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 0 0 ;
+}
+.ownCard div h2 {
+    font-weight: 500;
+}
+.ownCard ion-icon {
+    position: relative;
+    cursor: pointer;
+    font-size: 40px;
+}
+.income {
+    margin-bottom: 20px;
+}
+.cardNumber {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+

@@ -10,7 +10,8 @@
 
     /*---------DARK THEME-----------*/
 
-    --color-bgDark: #000000;   
+    --color-black: #000000;
+    --color-bgDark: #041422;   
     --color-dark: #0a2742;
     --color-darkShadow: #061b2e;
     --color-destDark: #081726;
@@ -80,4 +81,15 @@
 }
 .fastPayment.dark ul li span {
     color: #09ff00;
+}
+.userContent.dark {
+    background: var(--color-dark);
+    color: var(--color-text);
+}
+.ring.dark i {
+    border: 1px solid var(--color-bg);
+}
+.userImg.dark {
+    background: linear-gradient(125deg, #74c5fc, #33a7d4);
+    color: var(--color-bgDark);
 }

@@ -19,7 +19,8 @@
 
     /*---------DARK THEME-----------*/
 
-    --color-bgDark: #000000;   
+    --color-black: #000000;
+    --color-bgDark: #041422;   
     --color-dark: #0a2742;
     --color-darkShadow: #061b2e;
     --color-destDark: #081726;
@@ -54,7 +55,7 @@ body.dark {
 .navBackground {
     background: var(--color-white);
     display: flex;
-    width: 1400px;
+    width: 1720px;
     height: 70px;
     position: relative;
     left: 125px;
@@ -155,7 +156,7 @@ body.dark {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 1190px;
+    left: 1500px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #7a7a7a;
@@ -166,7 +167,7 @@ body.dark {
 }
 .timer {
     position: absolute;
-    left: 1300px;
+    left: 1620px;
     font-family: 'Roboto', sans-serif;
     color: #7a7a7a;
     font-weight: 500;
