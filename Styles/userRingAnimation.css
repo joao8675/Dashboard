@@ -141,7 +141,7 @@
 .ownCard {
     display: flex;
     flex-direction: column;
-    background: var(--color-dest);
+    background: linear-gradient(125deg, #24ffff, #00cfcf);
     border-radius: 10px;
     box-shadow: 0 0 8px 2px #0000002f;
     width: 346px;

@@ -82,7 +82,7 @@
 .fastPayment.dark ul li span {
     color: #09ff00;
 }
-.userContent.dark {
+.userContainer.dark {
     background: var(--color-dark);
     color: var(--color-text);
 }
@@ -92,4 +92,7 @@
 .userImg.dark {
     background: linear-gradient(125deg, #74c5fc, #33a7d4);
     color: var(--color-bgDark);
+}
+.ownCard.dark {
+    background: linear-gradient(125deg, #007070, #003a3a);
 }
