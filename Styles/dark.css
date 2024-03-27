@@ -96,3 +96,6 @@
 .ownCard.dark {
     background: linear-gradient(125deg, #007070, #003a3a);
 }
+.investContainer {
+    background: var(--color-dark);
+}

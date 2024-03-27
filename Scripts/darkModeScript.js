@@ -28,5 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.ring').classList.toggle('dark');
         document.querySelector('.userImg').classList.toggle('dark');
         document.querySelector('.ownCard').classList.toggle('dark');
+        document.querySelector('.investContainer').classList.toggle('dark');
     });
 });
